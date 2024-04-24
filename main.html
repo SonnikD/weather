@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Погода</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-image">
+      </div>
+      <form class="card-form">
+        <div class="input">
+          <input type="text" class="input-field" name="country" required />
+          <label class="input-label">Введите страну</label>
+        </div>
+        <div class="input">
+          <input type="text" class="input-field" name="city" required />
+          <label class="input-label">Введите город</label>
+        </div>
+
+        <div class="action">
+          <button type="submit" class="action-button">Узнать погоду</button>
+        </div>
+      </form>
+
+    </div>
+    <div class="card2">
+      <div class="weather-container"></div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
